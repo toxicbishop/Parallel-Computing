@@ -31,8 +31,7 @@ printf("Product = %d\n", prod);
 printf("Max = %d\n", max); 
 printf("Min = %d\n", min); 
 }printf("Process %d has value %d\n", rank, value); 
-printf("Process %d sees (MPI_Allreduce): Sum=%d, Prod=%d, 
-Max=%d, Min=%d\n", 
+printf("Process %d sees (MPI_Allreduce): Sum=%d, Prod=%d,Max=%d, Min=%d\n", 
 rank, all_sum, all_prod, all_max, all_min); 
 MPI_Finalize(); 
 return 0; 
